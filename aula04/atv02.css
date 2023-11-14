@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+}
+
+
+#div{
+    background-color: yellow;
+    opacity: 0.6;
+    width: 1360px;
+    border: solid black;
+    background-image: url("img01.png");
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-attachment: scroll;
+    background-size: 200px;
+}
+
+#h1{
+    border: black 2px solid;
+    margin: 25px;
+    text-align: center;
+    width: 250px;
+}
+
+#d1{
+    background-color: yellow;
+    height: 550px ;
+    width: 1fr;
+    
+}
+
