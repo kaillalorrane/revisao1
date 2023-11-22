@@ -1,0 +1,77 @@
+html,body{
+    font-family: sans-serif;
+    background-color: white;
+    color:black;
+}
+
+p{
+    background-color: brown;
+}
+
+.topo{
+    background-color: rgb(0,255,115);
+    height: 150px;
+    width: auto;
+    margin-top: 30px;
+    border:2px solid red;
+    color: red;
+}
+.topo p{
+    background-color: yellow;
+    text-align: center;
+    height: 30px;
+    width: 150px;
+    margin: 50px 450px;
+}
+.conteudo{
+    background-color: yellow;
+    height: 300px ;
+    width: auto ;
+    margin-top: 3px;
+    border: 2px solid red;
+    padding-left: 10px;
+}
+#p-ne{
+    background-color: blueviolet;
+    height:  40px;
+    width: 180px ;
+}
+
+.p-descricao{
+    background-color: blue;
+    height:  40px;
+    width: 200px;
+   padding-left: 20px;
+}
+
+.esporte{
+    background-color: red;
+    height:  40px;
+    width: 200px;
+   margin-left: 250px;
+
+}
+
+.noticias{
+    background-color: lightgreen;
+    height:  40px;
+    width: 200px;
+   padding-left: 20px;
+   margin-left: 500px;
+}
+
+.rodape{
+    background-color: greenyellow;
+    height:  100px;
+    width: 100%;
+}
+
+.rodape p{
+    background-color: red;
+    height:  40px;
+    padding-left: 350px;
+    
+}
+
+
+
