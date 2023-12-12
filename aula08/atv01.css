@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+}
+.box{
+    background-color: lightpink;
+    height: 600px;
+    display: grid;
+    grid-template-areas: "t t t"
+                        "e c mr"
+                        "r r r";
+   grid-template-rows: 100px 1fr 90px;
+   grid-template-columns: 80px 1fr 200px;                     
+}
+.titulo{
+    background-color: pink;
+    grid-area: t;
+    border: white 2px solid;
+}
+.menuE{
+    background-color: lightblue;
+    grid-area: e;
+    border: white 2px solid;
+}
+.conteudo{
+    background-color: lightcoral;
+    grid-area: c;
+    border: white 2px solid;
+}
+.menuR{
+    background-color: lightblue;
+    grid-area: mr;
+    border: white 2px solid;
+}
+.rodape{
+    background-color: pink;
+    grid-area: r;
+    border: white 2px solid;
+}
+
+.menuE{
+    background-color: lightblue;
+    display: grid;
+    grid-template-areas: "c1"
+                        "c2"
+                        "c3";
+   grid-template-rows: 1fr 1fr 1fr;
+                     
+}
+.menuE .ce1{
+    background-color: rgb(214, 107, 178);
+    grid-area: c1;
+    border: white 2px solid;
+}
+.menuE .ce2{
+    background-color: rgb(214, 107, 178);
+    grid-area: c2;
+    border: white 2px solid;
+}
+.menuE .ce3{
+    background-color: rgb(214, 107, 178);
+    grid-area: c3;
+    border: white 1px solid;
+}
+.menuR{
+    background-color: lightblue;
+    display: grid;
+    grid-template-areas: "k1 k2 "
+                        "k3 k4"
+                        "k5 k6"
+                        "k7 k8";
+   grid-template-rows: 1fr 1fr 1fr 1fr;
+   grid-template-columns: 1fr 1fr;
+                     
+}
+.menuR .k1{
+    background-color: rgb(214, 107, 178);
+    grid-area: k1;
+    border: white 2px solid;
+}
+.menuR .k2{
+    background-color: rgb(214, 107, 178);
+    grid-area: k2;
+    border: white 2px solid;
+}
+.menuR .k3{
+    background-color: rgb(214, 107, 178);
+    grid-area: k3;
+    border: white 1px solid;
+}
+.menuR .k4{
+    background-color: rgb(214, 107, 178);
+    grid-area: k4;
+    border: white 1px solid;
+}
+.menuR .k5{
+    background-color: rgb(214, 107, 178);
+    grid-area: k5;
+    border: white 1px solid;
+}
+.menuR .k6{
+    background-color: rgb(214, 107, 178);
+    grid-area: k6;
+    border: white 1px solid;
+}
+.menuR .k7{
+   background-color: rgb(214, 107, 178);
+    grid-area: k7;
+    border: white 1px solid;
+}
+.menuR .k8{
+    background-color: rgb(214, 107, 178);
+    grid-area: k8;
+    border: white 1px solid;
+}
+ .menuR .k5 p{
+    background-color: lightcoral;
+    border: 1px white solid;
+}
+.menuR p{
+    background-color: aquamarine;
+    border: 1px white solid;
+}
+.menuR .k6 p{
+    background-color: plum;
+    border: white 1px solid;
+}
+.menuR .k6 #p{
+    background-color: lightblue;
+    border: white 1px solid;
+}
