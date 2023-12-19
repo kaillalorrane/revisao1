@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+}
+
+
+.box{
+    background-color: aquamarine;
+    height: 600px;
+    display: grid;
+    grid-template-areas: "titulo titulo titulo"
+                        "menuL conteudo ";
+                    
+     grid-template-rows: 100px 1fr;
+     grid-template-columns: 1fr 1fr 1fr;               
+                    }
+    .titulo{
+    background-color: aqua;
+    border: solid 2px;
+    grid-area: titulo;
+    
+    }
+    .menuL{
+    background-color: blueviolet;
+    grid-area: menuL;
+    border: solid 2px;
+    }
+    .conteudo{
+    background-color: palevioletred;
+    grid-area: conteudo;
+    border: solid 2px;
+    }
+    .rodape{
+        background-color: lightpink;
+        grid-area: rodape;
+        border: solid 2px;
+    }
+    .img{
+        background-image: url("img01.png") ;
+        background-position: left;
+        margin-left: 50px ;
+        background-size: 100px;
+        background-repeat: no-repeat;
+        grid-area: titulo;
+        
+    }
+     .title{
+        border: solid pink 2px;
+        color: black;
+        margin-top: 25px ;
+        margin-left: 700px;
+        grid-area: titulo;
+        width: 150px;
+        height: 40px;
+       
+      
+    }
+    p{
+        font-size: 18px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        text-align: center; 
+        margin-top: 10px;   
+    }

@@ -1,0 +1,22 @@
+.box{
+background-color: aquamarine;
+height: 600px;
+display: grid;
+grid-template-areas: "titulo titulo"
+                    "menuL conteudo";
+                
+ grid-template-rows: 50px 1fr;
+ grid-template-columns: 1fr 1fr;               
+                }
+.titulo{
+background-color: aqua;
+grid-area: titulo;
+}
+.menuL{
+background-color: blueviolet;
+grid-area: menuL;
+}
+.conteudo{
+background-color: palevioletred;
+grid-area: conteudo;
+}
